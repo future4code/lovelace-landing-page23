@@ -4,30 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="index.css" />
     <title>4Food</title>
   </head>
 
   <body>
     <!-- Cabeçalho -->
-    <header>
+    <header class="header">
       <div class="logo">
-        <img />
+        <img src="img/4f-logo.png" />
       </div>
       <nav>
         <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">Quem Somos</a></li>
-          <li><a href="#">Promoções</a></li>
-          <li><a href="#">Produtos</a></li>
-          <li><a href="#">Nosso Time</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="#home">Página Inicial</a></li>
+          <li><a href="#quem-somos">Quem Somos</a></li>
+          <li><a href="#promocoes">Promoções</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#nosso-time">Nosso Time</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
     </header>
     <!-- Conteúdo Principal -->
     <main>
       <!-- HOME - THAINÁ -->
-      <section class="section-home">
+      <section id="home" class="section-home">
         <p class="section-title">Titulo Principal</p>
         <div class="icon">
           <img />
@@ -35,14 +43,14 @@
         </div>
       </section>
       <!-- QUEM SOMOS - LUAN -->
-      <section class="section-quem-somos">
+      <section id="quem-somos" class="section-quem-somos">
         <p class="section-title">Titulo Principal</p>
         <div>
           <p>Descrição mais detalhada do 4food</p>
         </div>
       </section>
       <!-- PROMOÇÕES - INGRID -->
-      <section class="section-promocoes">
+      <section id="promocoes" class="section-promocoes">
         <p class="section-title">Titulo Principal</p>
         <div class="container-promocoes">
           <ul class="lista-promocoes">
@@ -75,7 +83,7 @@
 
       <!-- PRODUTOS - LUAN -->
 
-      <section class="produtos">
+      <section id="produtos" class="produtos">
         <p class="container-produtos">Titulo Principal</p>
         <div>
           <ul class="lista-produtos">
@@ -132,7 +140,7 @@
 
       <!-- NOSSO TIME JUNTOS -->
 
-      <section class="section-nosso-time">
+      <section id="nosso-time" class="section-nosso-time">
         <p class="section-title">Titulo Principal</p>
         <div class="container-time-info">
           <div class="info-group">
@@ -161,7 +169,7 @@
 
       <!-- CONTATO - INGRID -->
 
-      <section class="contato">
+      <section id="contato" class="contato">
         <p class="section-title">Titulo Principal</p>
         <div class="container-form">
           <form class="form-group">
