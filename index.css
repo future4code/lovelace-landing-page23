@@ -10,7 +10,7 @@
 .header {
   display: flex;
   padding: 15px;
-  background-color: #653f2a;
+  background-color: #740303;
   justify-content: space-between;
   align-items: center;
 }
@@ -170,7 +170,7 @@ footer {
 /* Estilização da sessão home*/
 
 .section-home {
-  background: url("./img/back1.jpg");
+  background: url("./img/60e779e448c17.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -182,8 +182,11 @@ footer {
 }
 
 .section-title {
-  color: #aeae68;
+  color: #740303;
   font-size: 32px;
+  padding: 100px;
+  text-align: center;
+  font-weight: 600;
 }
 
 .icone img {
@@ -204,4 +207,55 @@ footer {
 
 .redes-sociais-container img {
   height: 50px;
+}
+
+/* Estilização da seção promoções */
+
+.section-promocoes {
+  background-color: #fdfbfb;
+}
+
+.container-promocoes ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  list-style: none;
+}
+
+.container-promocoes li {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-promocoes h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.container-promocoes .img-comprar {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: #000 3px 3px 3px;
+  transition: transform 200ms ease;
+}
+
+.container-promocoes li:hover .img-comprar {
+  transform: scale(1.1);
+}
+
+.container-promocoes button {
+  margin-top: 30px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: 1px;
+  background-color: #740303;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.container-promocoes button:hover {
+  background-color: rgba(116, 3, 3, 0.7);
 }
