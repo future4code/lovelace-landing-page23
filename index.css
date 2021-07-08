@@ -21,7 +21,7 @@
         .header {
             display: flex;
             padding: 15px;
-            background-color: #653f2a;
+            background-color: #740303;
             justify-content: space-between;
             align-items: center;
         }
@@ -117,11 +117,27 @@
             align-items: center;
             min-height: 100vh;
             width: 100%;
+            opacity: 85%;
         }
         
         .section-title {
-            color: #aeae68;
+            color: #e70000;
             font-size: 32px;
+            font-family: 'Anton', sans-serif;
+        }
+        
+        h1 {
+            color: #740303;
+            font-size: 64px;
+            font-family: 'Anton', sans-serif;
+        }
+        
+        .container-border {
+            box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+            height: 300px;
+            max-width: 500px;
+            text-align: center;
+            padding: 10px 20px;
         }
         
         .icone img {
@@ -130,7 +146,13 @@
         }
         
         .icone p {
-            color: white;
+            color: rgb(173, 65, 65);
+            font-size: 1.3em;
+        }
+        
+        .redes-sociais-container p {
+            text-align: center;
+            padding: 10px;
         }
         
         .redes-sociais-container ul {
