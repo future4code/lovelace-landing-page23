@@ -1,0 +1,59 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Estilização do cabeçalho */
+
+.header {
+  display: flex;
+  padding: 15px;
+  background-color: #653f2a;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.header nav ul li {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 800;
+  font-size: 16px;
+  text-shadow: 1px 1px #000;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.logo p {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+/* Versão mobile */
+
+/* Header */
+
+@media (max-width: 768px) {
+  .header {
+    width: 100%;
+  }
+
+  .header nav {
+    display: none;
+  }
+}
