@@ -6,7 +6,7 @@
 <p align="justify">A 4Food é uma empresa preocupada com a alimentação do consumidor. Somos embasados em 4 pilares: agilidade, segurança, qualidade e paixão. Estamos focados em estabelecer o mais alto padrão para nossos clientes, parceiros e equipe. Trabalhamos com uma segurança personalizada com materiais de alta qualidade e design inovador.</p>
 
 # O que a plataforma é capaz de fazer
-# listas não ordenadas
+
 Fazer compras de comidas por delivery online
 
 >status do projeto: concluido
