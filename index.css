@@ -190,7 +190,7 @@ h1 {
 }
 
 .section-title {
-    color: #e70000;
+    color: #4b4b4b;
     font-size: 32px;
     text-align: center;
     font-family: 'Anton', sans-serif;
@@ -218,7 +218,10 @@ h1 {
 /* Estilização da seção promoções */
 
 .section-promocoes {
-    background-color: #fdfbfb;
+    background-color: #ebeaee;
+    min-height: 100vh;
+    width: 100%;
+    padding: 30px;
 }
 
 .container-promocoes ul {
@@ -267,7 +270,62 @@ h1 {
 }
 
 
-/* */
+/* Produtos */
+
+.section-produtos {
+    background-color: #ffffff;
+    min-height: 100vh;
+    width: 100%;
+    padding: 30px;
+}
+
+.section-produtos ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+}
+
+.section-produtos li {
+    max-width: 400px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-produtos h2 {
+    margin-bottom: 30px;
+}
+
+.section-produtos .img-comprar {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: #000 3px 3px 3px;
+    transition: transform 200ms ease;
+}
+
+.section-produtos li:hover .img-comprar {
+    transform: scale(1.1);
+}
+
+.section-produtos button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: 1px;
+    background-color: #08a82b;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.section-produtos button:hover {
+    background-color: #3ed15e;
+}
+
+
+/* Footer */
 
 .redes-sociais-container p {
     text-align: center;
