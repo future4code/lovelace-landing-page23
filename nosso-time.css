@@ -1,32 +1,56 @@
+.section-nosso-time {
+    height: 100%;
+    background-color: rgb(236, 235, 235);
+    padding: 10px;
+}
+
 .container-time-info {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 80px 0px;
-  background-color: #eeeaea;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin: 80px 80px;
 }
 
 .info-group {
-  margin: 30px;
+    height: 100%;
+    margin: 20px;
+    padding: 5px 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
 }
 
 .info-group img {
-  border-radius: 50%;
-  width: 250px;
-  margin: 0 auto;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.section-nosso-time p:first-child {
+    text-align: center;
+    color: #4b4b4b;
+    font-size: 3em;
+    box-shadow: 0px 2px 0px rgb(155, 153, 153);
 }
 
 .info-group h3 {
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 20px;
+    box-shadow: 0px 2px 0px rgb(155, 153, 153);
+    color: #4b4b4b;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 29px;
+    font-family: "Anton", sans-serif;
 }
 
 .info-group p {
-  margin-top: 20px;
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 5px;
+    color: rgb(77, 77, 77);
+    background-color: rgb(223, 223, 223);
 }
 
 .info-group a {
-  color: #740303;
-  font-weight: 700;
+    color: #740303;
+    font-weight: 700;
 }
