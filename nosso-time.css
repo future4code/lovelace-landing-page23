@@ -26,13 +26,6 @@
     margin: 10px auto;
 }
 
-.section-nosso-time p:first-child {
-    text-align: center;
-    color: #4b4b4b;
-    font-size: 3em;
-    box-shadow: 0px 2px 0px rgb(155, 153, 153);
-}
-
 .info-group h3 {
     box-shadow: 0px 2px 0px rgb(155, 153, 153);
     color: #4b4b4b;
@@ -53,4 +46,20 @@
 .info-group a {
     color: #740303;
     font-weight: 700;
+}
+
+
+/* Seção Nosso Time versão mobile */
+
+@media (max-width: 768px) {
+    .container-time-info {
+        grid-template-columns: 1fr;
+    }
+    .container-time-info {
+        margin: 0;
+    }
+    .info-group {
+        height: auto;
+        padding: 20px 20px;
+    }
 }
