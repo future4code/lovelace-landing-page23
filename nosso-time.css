@@ -20,10 +20,17 @@
 }
 
 .info-group img {
+<<<<<<< HEAD
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 180px;
+    margin: 10px auto;
+=======
   border-radius: 50%;
   border: 1px solid black;
   width: 180px;
   margin: 10px auto;
+>>>>>>> b5d67961e1306d2d94be54e4b873d623eb7bdd50
 }
 
 .info-group h3 {
@@ -44,6 +51,27 @@
 }
 
 .info-group a {
+<<<<<<< HEAD
+    color: #740303;
+    font-weight: 700;
+}
+
+
+/* Seção Nosso Time versão mobile */
+
+@media (max-width: 768px) {
+    .container-time-info {
+        grid-template-columns: 1fr;
+    }
+    .container-time-info {
+        margin: 0;
+    }
+    .info-group {
+        height: auto;
+        padding: 20px 20px;
+    }
+}
+=======
   color: #740303;
   font-weight: 700;
 }
@@ -64,3 +92,4 @@
     padding: 20px 20px;
   }
 }
+>>>>>>> b5d67961e1306d2d94be54e4b873d623eb7bdd50
