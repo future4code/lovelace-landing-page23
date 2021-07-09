@@ -2,7 +2,9 @@
 
 <h1 align="center"> 4Food </h1>
 
-# link de acesso ao site
+# Participantes do grupo: Ingrid, Luan e Thainá
+
+# Link de acesso ao site
 https://parsimonious-point.surge.sh/
 
 ## Descrição do projeto
