@@ -2,6 +2,9 @@
 
 <h1 align="center"> 4Food </h1>
 
+# link de acesso ao site
+https://parsimonious-point.surge.sh/
+
 ## Descrição do projeto
 <p align="justify">A 4Food é uma empresa preocupada com a alimentação do consumidor. Somos embasados em 4 pilares: agilidade, segurança, qualidade e paixão. Estamos focados em estabelecer o mais alto padrão para nossos clientes, parceiros e equipe. Trabalhamos com uma segurança personalizada com materiais de alta qualidade e design inovador.</p>
 
@@ -18,3 +21,8 @@ Fazer compras de comidas por delivery online
 ![promocoes](https://user-images.githubusercontent.com/85445949/125123110-a3bdb080-e0cc-11eb-91bd-567184eafcde.png)
 
 ![produtos](https://user-images.githubusercontent.com/85445949/125122983-7d981080-e0cc-11eb-9cd3-9760142a6241.png)
+
+![nosso time](https://user-images.githubusercontent.com/85445949/125130412-4f6bfe00-e0d7-11eb-9de4-1f30c888e908.png)
+
+![contato](https://user-images.githubusercontent.com/85445949/125130460-66aaeb80-e0d7-11eb-9554-db5560b8b500.png)
+
