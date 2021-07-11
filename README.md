@@ -5,7 +5,7 @@
 # Participantes do grupo: Ingrid, Luan e Thainá
 
 # Link de acesso ao site
-https://parsimonious-point.surge.sh/
+http://lewd-sheet.surge.sh
 
 ## Descrição do projeto
 <p align="justify">A 4Food é uma empresa preocupada com a alimentação do consumidor. Somos embasados em 4 pilares: agilidade, segurança, qualidade e paixão. Estamos focados em estabelecer o mais alto padrão para nossos clientes, parceiros e equipe. Trabalhamos com uma segurança personalizada com materiais de alta qualidade e design inovador.</p>
