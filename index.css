@@ -366,6 +366,7 @@ h1 {
   .section-quem-somos {
     background-color: rgb(253, 251, 251);
     padding: 0 10px;
+    height: auto;
   }
   .section-quem-somos img {
     max-width: 350px;
@@ -428,5 +429,17 @@ h1 {
     border-radius: 10px;
     box-shadow: #000 3px 3px 3px;
     transition: transform 200ms ease;
+  }
+}
+
+/* Responsividade para tablet/ipad */
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .container-promocoes ul {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section-produtos ul {
+    grid-template-columns: 1fr 1fr;
   }
 }
