@@ -1,0 +1,69 @@
+.container-form {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 80px auto;
+}
+
+.form-group {
+  display: grid;
+  grid-template-areas: "name email" "message message" "button button";
+  gap: 20px;
+  width: 100%;
+}
+
+.form-input-name {
+  grid-area: name;
+}
+
+.form-input-email {
+  grid-area: email;
+}
+
+.form-input-message {
+  grid-area: message;
+  padding: 6px 12px;
+}
+
+.form-button {
+  grid-area: button;
+  padding: 15px 32px;
+  cursor: pointer;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #740303;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 16px;
+  border: none;
+}
+
+.form-button:hover {
+  background-color: rgba(116, 3, 3, 0.7);
+}
+
+.form-input-email,
+.form-input-name {
+  padding: 20px;
+}
+
+.form-input-email,
+.form-input-name,
+.form-input-message {
+  border-radius: 5px;
+}
+
+/* Seção Contato versão mobile */
+
+@media (max-width: 768px) {
+  .form-group {
+    grid-template-areas: "name name" "email email" "message message" "button button";
+  }
+  .form-button {
+    width: auto;
+  }
+}
